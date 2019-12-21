@@ -1,0 +1,11 @@
+firstQ = int(input("Please enter your First Quarter Grade: "))
+secondQ = int(input("Please enter your Second Quarter Grade: "))
+final = int(input("Please enter your Final Grade: "))
+
+a = firstQ x .4
+b = secondQ x .4
+c = final x .2
+
+semG = a + b + c
+
+print("Your Semester grade is: " + semG)
